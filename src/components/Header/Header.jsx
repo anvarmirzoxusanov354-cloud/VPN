@@ -18,14 +18,14 @@ const Header = () => {
   return (
     <header className="max-w-7xl mx-auto flex items-center justify-between px-6 py-8 font-sans relative">
       
-      {/* Logo */}
+     
       <div className="flex items-center z-50">
         <Link to='/'>
           <img src={logo} alt="logo" className="h-10 w-auto" />  
         </Link>
       </div>
 
-      {/* Desktop Nav */}
+      
       <nav className="hidden lg:flex items-center gap-10">
         {navItems.map((item, index) => (
           <Link key={index} to={item.link} className="text-gray-600 hover:text-red-500 transition-colors">
