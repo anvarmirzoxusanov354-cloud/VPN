@@ -2,7 +2,7 @@ import React from 'react';
 import Hero from '../../components/Main/Hero/Hero';
 import Stats from '../../components/Main/Stats/Stats';
 import Features from '../../components/Main/Features/Features'; 
-import Pricing from '../../components/Main/Pricing/pricing';
+import Pricing from '../../components/Main/Pricing/Pricing';
 import GlobalNetwork from '../../components/Main/GlobalNetwork/GlobalNetwork';
 import Footer from '../../components/Footer/Footer';
 
